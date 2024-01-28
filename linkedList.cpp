@@ -9,9 +9,9 @@ class Node{
 };
 
 Node * head;
-Node * one = NULL;
-Node * two = NULL;
-Node * three = NULL;
+Node * one = nullptr;
+Node * two = nullptr;
+Node * three = nullptr;
 
 int main(){
     one = new Node();
@@ -24,7 +24,7 @@ int main(){
 
     one->next = two;
     two->next = three;
-    three->next = NULL;
+    three->next = nullptr;
 
     head = one;
 
@@ -87,5 +87,10 @@ int main(){
     }
 
 
+    // releasing memory locations held by pointers
+    free(head);
+    free(one);
+    free(two);
+    free(three);
     return 0;
 }
