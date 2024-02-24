@@ -14,7 +14,7 @@ int main()
 
     vector<pair<int, int> > vec;
     vec.push_back(make_pair(2, 3));
-    // Note: Below line does not work in newer version
+    //! Note: Below line does not work in newer version
     // vec.push_back({12,13});
     vec.emplace_back(4, 1);
     cout << vec.at(0).first << endl;
@@ -47,9 +47,9 @@ int main()
     // vector <int> ::iterator it2 = v.rend();
     // vector <int> ::iterator it3 = v.rbegin();
 
-    vector<int>::iterator it1 = v.end();            // Iterator to one past the last element
-    vector<int>::reverse_iterator it2 = v.rbegin(); // Iterator to the reverse beginning
-    vector<int>::reverse_iterator it3 = v.rend();   // Iterator to one past the reverse end
+    vector<int>::iterator it1 = v.end();            //! Iterator to one past the last element
+    vector<int>::reverse_iterator it2 = v.rbegin(); //! Iterator to the reverse beginning
+    vector<int>::reverse_iterator it3 = v.rend();   //! Iterator to one past the reverse end
 
     cout << v.back() << endl;
 

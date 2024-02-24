@@ -10,7 +10,7 @@ int main(){
     pair <int , int > arr[] = {make_pair(1,2)
     //old way of making pairs 
     //,{2,3},{3,4}
-    //Note : Use make_pair() function now
+    //!Note : Use make_pair() function now
     };
     cout << arr[0].second;
     return 0;
