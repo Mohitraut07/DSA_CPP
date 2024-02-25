@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 
+bool comp(pair<int , int>p1,pair<int ,int>p2){
+    if(p1.second<p2.second)
+        return 1;
+    else if(p1.second == p2.second){
+        if(p1.first > p2.first) return true;
+    }
+    return false;
+}
+
 int main(){
     pair<int,int> p= make_pair(1,2);
     cout << p.first << " " << p.second << endl;
