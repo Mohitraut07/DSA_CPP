@@ -20,6 +20,6 @@ int main(){
     stack<int> copy;
     copy.swap(s);
 
-    //! Note: emplace()  access methods does not work in new version
+    //! Note: emplace()  access method does not work in new version
     return 0;
 }
