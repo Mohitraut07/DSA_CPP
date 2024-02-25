@@ -42,7 +42,7 @@ int main()
     auto it1 = mpp.lower_bound(2);
 
     auto it2 = mpp.upper_bound(5);
-    
-    
+
+    // erase , swap , size , empty, are same as above
     return 0;
 }
