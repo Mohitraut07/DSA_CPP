@@ -45,4 +45,11 @@ int main()
 
     // erase , swap , size , empty, are same as above
     return 0;
+
+    //! Multi-Map
+    // everything same as map, only it can store multiple keys
+    // only mpp[key] can not be used here
+
+    //! Unordered-Map
+    // same as set & unordered set difference.
 }
